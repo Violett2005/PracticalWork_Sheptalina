@@ -1,0 +1,14 @@
+C:\Users\Violetta\Desktop\Практическая\bin\Debug\net10.0\Практическая.exe
+C:\Users\Violetta\Desktop\Практическая\bin\Debug\net10.0\Практическая.deps.json
+C:\Users\Violetta\Desktop\Практическая\bin\Debug\net10.0\Практическая.runtimeconfig.json
+C:\Users\Violetta\Desktop\Практическая\bin\Debug\net10.0\Практическая.dll
+C:\Users\Violetta\Desktop\Практическая\bin\Debug\net10.0\Практическая.pdb
+C:\Users\Violetta\Desktop\Практическая\obj\Debug\net10.0\Практическая.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Violetta\Desktop\Практическая\obj\Debug\net10.0\Практическая.AssemblyInfoInputs.cache
+C:\Users\Violetta\Desktop\Практическая\obj\Debug\net10.0\Практическая.AssemblyInfo.cs
+C:\Users\Violetta\Desktop\Практическая\obj\Debug\net10.0\Практическая.csproj.CoreCompileInputs.cache
+C:\Users\Violetta\Desktop\Практическая\obj\Debug\net10.0\Практическая.dll
+C:\Users\Violetta\Desktop\Практическая\obj\Debug\net10.0\refint\Практическая.dll
+C:\Users\Violetta\Desktop\Практическая\obj\Debug\net10.0\Практическая.pdb
+C:\Users\Violetta\Desktop\Практическая\obj\Debug\net10.0\Практическая.genruntimeconfig.cache
+C:\Users\Violetta\Desktop\Практическая\obj\Debug\net10.0\ref\Практическая.dll

@@ -6,6 +6,7 @@ class Student
     private int age;
     private double averageGrade;
     private string group;
+    private int course;
 
     public Student(string name, int age, double averageGrade)
     {
@@ -13,6 +14,7 @@ class Student
         this.age = age;
         this.averageGrade = averageGrade;
         this.group = "Не указана";
+        this.course = 1;
     }
 
     public string GetName()
@@ -27,12 +29,17 @@ class Student
 
     public double GetAverageGrade()
     {
-        return averageGrade;   
+        return averageGrade;
     }
 
     public string GetGroup()
     {
         return group;
+    }
+
+    public int GetCourse()
+    {
+        return course;
     }
 
     public void SetName(string name)
@@ -61,9 +68,10 @@ class Student
         Console.WriteLine($"Возраст: {age}");
         Console.WriteLine($"Средний балл: {averageGrade}");
         Console.WriteLine($"Группа: {group}");
+        Console.WriteLine($"Курс: {course}");
     }
 
-    public string GetPerfomance()
+    public string GetPerformance()
     {
         if (averageGrade > 8)
             return "Отлично";
@@ -71,15 +79,39 @@ class Student
             return "Хорошо";
         else if (averageGrade >= 4)
             return "Удовлетворительно";
-        else 
+        else
             return "Неудовлетворительно";
     }
+
+
+    public bool IsExcellentStudent()
+    {
+        return averageGrade >= 9;
+    }
+
 
     public void IncreaseGrade(double points)
     {
         averageGrade += points;
+
         if (averageGrade > 10)
             averageGrade = 10;
+    }
+
+
+    public void DecreaseGrade(double points)
+    {
+        averageGrade -= points;
+
+        if (averageGrade < 0)
+            averageGrade = 0;
+    }
+
+
+    public void NextCourse()
+    {
+        if (course < 4)
+            course++;
     }
 }
 
@@ -95,12 +127,18 @@ class Program
         student2.SetGroup("ПИ-102");
         student3.SetGroup("ПИ-103");
 
-        Student[] students = {student1, student2, student3};
+
+        student2.IncreaseGrade(0.5);
+        student3.DecreaseGrade(0.8);
+        student1.NextCourse();
+
+        Student[] students = { student1, student2, student3 };
 
         foreach (Student student in students)
         {
             student.ShowInfo();
-            Console.WriteLine("Успеваемость: " + student.GetPerfomance());
+            Console.WriteLine("Успеваемость: " + student.GetPerformance());
+            Console.WriteLine("Отличник: " + (student.IsExcellentStudent() ? "Да" : "Нет"));
             Console.WriteLine(new string('-', 30));
         }
     }

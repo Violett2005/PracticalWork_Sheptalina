@@ -12,3 +12,4 @@ C:\Users\Violetta\Desktop\Практическая\obj\Debug\net10.0\refint\Пр
 C:\Users\Violetta\Desktop\Практическая\obj\Debug\net10.0\Практическая.pdb
 C:\Users\Violetta\Desktop\Практическая\obj\Debug\net10.0\Практическая.genruntimeconfig.cache
 C:\Users\Violetta\Desktop\Практическая\obj\Debug\net10.0\ref\Практическая.dll
+C:\Users\Violetta\Desktop\Практическая\obj\Debug\net10.0\Практическая.sourcelink.json
